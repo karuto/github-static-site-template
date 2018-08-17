@@ -1,6 +1,6 @@
 import React from 'react';
 
-export default function ContentAreaMarkdown({h}) {
+export default function Footer() {
     const links = {
       homepage: 'https://github.com/karuto',
       github: 'https://github.com/karuto/github-static-site-template',
