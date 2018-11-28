@@ -322,10 +322,12 @@ a:active {
     max-width: 960px;
     margin: 2rem auto;
     background: #fff;
-    display: flex;
     border-radius: 4px;
     box-shadow: 0 5px 20px -5px rgba(50,50,93,.12), 0 3px 4px -2px rgba(0,0,0,.08);
     transition-duration: .5s;
+}
+.container--contents li {
+    padding: 8px 0;
 }
 
 
@@ -372,6 +374,7 @@ a:active {
   Contents
   ========================================================================== */
 .container--contents {
+    padding: 32px;
 }
 
 /* ==========================================================================
