@@ -19,7 +19,7 @@ npm run build
 ```
 
 ## Previewing locally
-There is no deployment. It's literally a static HTML file. Visit the file in your browser to preview locally.
+There is no backend server to run. It's literally a static HTML file. Visit the file in your browser to preview locally.
 
 ## Deployment
 This repo is made for static sites hosted on GitHub Pages.
