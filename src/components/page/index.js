@@ -1,5 +1,6 @@
 import React from 'react';
 import Footer from '../footer';
+import styles from '../../styles/app.css';
 
 class Page extends React.Component {
     constructor(props) {
