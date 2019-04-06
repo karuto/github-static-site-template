@@ -1,0 +1,10 @@
+/* ==========================================================================
+  Footer
+  ========================================================================== */
+  footer {
+    color: #666;
+    font-family: Roboto,"Hiragino Sans GB","冬青黑","Microsoft YaHei","微软雅黑",SimSun,"宋体",sans-serif;
+    max-width: 960px;
+    margin: 4rem auto;
+    text-align: center;
+}

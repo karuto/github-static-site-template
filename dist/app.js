@@ -81,7 +81,7 @@
 /******/
 /******/
 /******/ 	// Load entry module and return exports
-/******/ 	return __webpack_require__(__webpack_require__.s = "./src/app.js");
+/******/ 	return __webpack_require__(__webpack_require__.s = "./src/Root.js");
 /******/ })
 /************************************************************************/
 /******/ ({
@@ -229,39 +229,72 @@ eval("var g;\n\n// This works in non-strict mode\ng = (function() {\n\treturn th
 
 /***/ }),
 
-/***/ "./src/app.js":
-/*!********************!*\
-  !*** ./src/app.js ***!
-  \********************/
+/***/ "./src/Root.css":
+/*!**********************!*\
+  !*** ./src/Root.css ***!
+  \**********************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+eval("// extracted by mini-css-extract-plugin\n\n//# sourceURL=webpack:///./src/Root.css?");
+
+/***/ }),
+
+/***/ "./src/Root.js":
+/*!*********************!*\
+  !*** ./src/Root.js ***!
+  \*********************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
-eval("\n\nvar _react = __webpack_require__(/*! react */ \"./node_modules/react/index.js\");\n\nvar _react2 = _interopRequireDefault(_react);\n\nvar _reactDom = __webpack_require__(/*! react-dom */ \"./node_modules/react-dom/index.js\");\n\nvar _reactDom2 = _interopRequireDefault(_reactDom);\n\nvar _page = __webpack_require__(/*! ./components/page/ */ \"./src/components/page/index.js\");\n\nvar _page2 = _interopRequireDefault(_page);\n\nfunction _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }\n\n_reactDom2.default.render(_react2.default.createElement(_page2.default, null), document.getElementById('root'));\n\n//# sourceURL=webpack:///./src/app.js?");
+eval("\n\nvar _react = __webpack_require__(/*! react */ \"./node_modules/react/index.js\");\n\nvar _react2 = _interopRequireDefault(_react);\n\nvar _reactDom = __webpack_require__(/*! react-dom */ \"./node_modules/react-dom/index.js\");\n\nvar _reactDom2 = _interopRequireDefault(_reactDom);\n\nvar _Page = __webpack_require__(/*! ./components/Page/Page */ \"./src/components/Page/Page.js\");\n\nvar _Page2 = _interopRequireDefault(_Page);\n\n__webpack_require__(/*! ./Root.css */ \"./src/Root.css\");\n\n__webpack_require__(/*! ./styles/app.css */ \"./src/styles/app.css\");\n\nfunction _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }\n\n_reactDom2.default.render(_react2.default.createElement(_Page2.default, null), document.getElementById('root')); // global normalize\n\n//# sourceURL=webpack:///./src/Root.js?");
 
 /***/ }),
 
-/***/ "./src/components/footer/index.js":
-/*!****************************************!*\
-  !*** ./src/components/footer/index.js ***!
-  \****************************************/
+/***/ "./src/components/Footer/Footer.css":
+/*!******************************************!*\
+  !*** ./src/components/Footer/Footer.css ***!
+  \******************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+eval("// extracted by mini-css-extract-plugin\n\n//# sourceURL=webpack:///./src/components/Footer/Footer.css?");
+
+/***/ }),
+
+/***/ "./src/components/Footer/Footer.js":
+/*!*****************************************!*\
+  !*** ./src/components/Footer/Footer.js ***!
+  \*****************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
-eval("\n\nObject.defineProperty(exports, \"__esModule\", {\n    value: true\n});\nexports.default = Footer;\n\nvar _react = __webpack_require__(/*! react */ \"./node_modules/react/index.js\");\n\nvar _react2 = _interopRequireDefault(_react);\n\nfunction _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }\n\nfunction Footer() {\n    var links = {\n        homepage: 'https://github.com/karuto',\n        github: 'https://github.com/karuto/github-static-site-template',\n        email: 'mailto:hi@vincentzh.com'\n    };\n\n    var content = _react2.default.createElement(\n        'div',\n        null,\n        'Made by ',\n        _react2.default.createElement(\n            'a',\n            { href: links.homepage },\n            'Vincent Zhang.'\n        ),\n        '\\xA0Find this project on ',\n        _react2.default.createElement(\n            'a',\n            { href: links.github },\n            'GitHub'\n        ),\n        '\\xA0or write me an ',\n        _react2.default.createElement(\n            'a',\n            { href: links.email },\n            'email.'\n        )\n    );\n\n    return _react2.default.createElement(\n        'footer',\n        { className: 'container' },\n        content\n    );\n};\n\n//# sourceURL=webpack:///./src/components/footer/index.js?");
+eval("\n\nObject.defineProperty(exports, \"__esModule\", {\n    value: true\n});\nexports.default = Footer;\n\nvar _react = __webpack_require__(/*! react */ \"./node_modules/react/index.js\");\n\nvar _react2 = _interopRequireDefault(_react);\n\nvar _Footer = __webpack_require__(/*! ./Footer.css */ \"./src/components/Footer/Footer.css\");\n\nvar _Footer2 = _interopRequireDefault(_Footer);\n\nfunction _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }\n\nfunction Footer() {\n    var links = {\n        homepage: 'https://github.com/karuto',\n        github: 'https://github.com/karuto/github-static-site-template',\n        email: 'mailto:hi@vincentzh.com'\n    };\n\n    var content = _react2.default.createElement(\n        'div',\n        null,\n        'Made by ',\n        _react2.default.createElement(\n            'a',\n            { href: links.homepage },\n            'Vincent Zhang.'\n        ),\n        '\\xA0Find this project on ',\n        _react2.default.createElement(\n            'a',\n            { href: links.github },\n            'GitHub'\n        ),\n        '\\xA0or write me an ',\n        _react2.default.createElement(\n            'a',\n            { href: links.email },\n            'email.'\n        )\n    );\n\n    return _react2.default.createElement(\n        'footer',\n        { className: 'container foo' },\n        content\n    );\n};\n\n//# sourceURL=webpack:///./src/components/Footer/Footer.js?");
 
 /***/ }),
 
-/***/ "./src/components/page/index.js":
+/***/ "./src/components/Page/Page.css":
 /*!**************************************!*\
-  !*** ./src/components/page/index.js ***!
+  !*** ./src/components/Page/Page.css ***!
   \**************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
+eval("// extracted by mini-css-extract-plugin\n\n//# sourceURL=webpack:///./src/components/Page/Page.css?");
+
+/***/ }),
+
+/***/ "./src/components/Page/Page.js":
+/*!*************************************!*\
+  !*** ./src/components/Page/Page.js ***!
+  \*************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
 "use strict";
-eval("\n\nObject.defineProperty(exports, \"__esModule\", {\n    value: true\n});\n\nvar _createClass = function () { function defineProperties(target, props) { for (var i = 0; i < props.length; i++) { var descriptor = props[i]; descriptor.enumerable = descriptor.enumerable || false; descriptor.configurable = true; if (\"value\" in descriptor) descriptor.writable = true; Object.defineProperty(target, descriptor.key, descriptor); } } return function (Constructor, protoProps, staticProps) { if (protoProps) defineProperties(Constructor.prototype, protoProps); if (staticProps) defineProperties(Constructor, staticProps); return Constructor; }; }();\n\nvar _react = __webpack_require__(/*! react */ \"./node_modules/react/index.js\");\n\nvar _react2 = _interopRequireDefault(_react);\n\nvar _footer = __webpack_require__(/*! ../footer */ \"./src/components/footer/index.js\");\n\nvar _footer2 = _interopRequireDefault(_footer);\n\n__webpack_require__(/*! ../../styles/app.css */ \"./src/styles/app.css\");\n\n__webpack_require__(/*! ../../styles/normalize.css */ \"./src/styles/normalize.css\");\n\nfunction _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }\n\nfunction _classCallCheck(instance, Constructor) { if (!(instance instanceof Constructor)) { throw new TypeError(\"Cannot call a class as a function\"); } }\n\nfunction _possibleConstructorReturn(self, call) { if (!self) { throw new ReferenceError(\"this hasn't been initialised - super() hasn't been called\"); } return call && (typeof call === \"object\" || typeof call === \"function\") ? call : self; }\n\nfunction _inherits(subClass, superClass) { if (typeof superClass !== \"function\" && superClass !== null) { throw new TypeError(\"Super expression must either be null or a function, not \" + typeof superClass); } subClass.prototype = Object.create(superClass && superClass.prototype, { constructor: { value: subClass, enumerable: false, writable: true, configurable: true } }); if (superClass) Object.setPrototypeOf ? Object.setPrototypeOf(subClass, superClass) : subClass.__proto__ = superClass; }\n\nvar Page = function (_React$Component) {\n    _inherits(Page, _React$Component);\n\n    function Page(props) {\n        _classCallCheck(this, Page);\n\n        var _this = _possibleConstructorReturn(this, (Page.__proto__ || Object.getPrototypeOf(Page)).call(this, props));\n\n        _this.config = {\n            isContentVisible: true\n        };\n\n        _this.strings = {\n            headingGlobal: 'GitHub Static Site Template',\n            subheadingGlobal: 'A React-based template for GitHub Pages. Start editing away!'\n        };\n        return _this;\n    }\n\n    _createClass(Page, [{\n        key: 'render',\n        value: function render() {\n            return _react2.default.createElement(\n                'div',\n                { className: 'container container--global' },\n                _react2.default.createElement(\n                    'div',\n                    { className: 'overlay' },\n                    _react2.default.createElement(\n                        'header',\n                        { className: 'titles' },\n                        _react2.default.createElement(\n                            'h1',\n                            { className: 'heading heading--titles' },\n                            this.strings.headingGlobal\n                        ),\n                        _react2.default.createElement(\n                            'h3',\n                            { className: 'subheading subheading--titles' },\n                            this.strings.subheadingGlobal\n                        )\n                    )\n                ),\n                _react2.default.createElement(\n                    'div',\n                    { className: 'container container--contents' },\n                    this.config.isContentVisible ? _react2.default.createElement(\n                        'h1',\n                        null,\n                        'Hello ',\n                        this.strings.headingGlobal\n                    ) : null\n                ),\n                _react2.default.createElement(_footer2.default, null)\n            );\n        }\n    }]);\n\n    return Page;\n}(_react2.default.Component);\n\nexports.default = Page;\n\n//# sourceURL=webpack:///./src/components/page/index.js?");
+eval("\n\nObject.defineProperty(exports, \"__esModule\", {\n    value: true\n});\n\nvar _createClass = function () { function defineProperties(target, props) { for (var i = 0; i < props.length; i++) { var descriptor = props[i]; descriptor.enumerable = descriptor.enumerable || false; descriptor.configurable = true; if (\"value\" in descriptor) descriptor.writable = true; Object.defineProperty(target, descriptor.key, descriptor); } } return function (Constructor, protoProps, staticProps) { if (protoProps) defineProperties(Constructor.prototype, protoProps); if (staticProps) defineProperties(Constructor, staticProps); return Constructor; }; }();\n\nvar _react = __webpack_require__(/*! react */ \"./node_modules/react/index.js\");\n\nvar _react2 = _interopRequireDefault(_react);\n\nvar _Footer = __webpack_require__(/*! ../Footer/Footer */ \"./src/components/Footer/Footer.js\");\n\nvar _Footer2 = _interopRequireDefault(_Footer);\n\n__webpack_require__(/*! ./Page.css */ \"./src/components/Page/Page.css\");\n\nfunction _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }\n\nfunction _classCallCheck(instance, Constructor) { if (!(instance instanceof Constructor)) { throw new TypeError(\"Cannot call a class as a function\"); } }\n\nfunction _possibleConstructorReturn(self, call) { if (!self) { throw new ReferenceError(\"this hasn't been initialised - super() hasn't been called\"); } return call && (typeof call === \"object\" || typeof call === \"function\") ? call : self; }\n\nfunction _inherits(subClass, superClass) { if (typeof superClass !== \"function\" && superClass !== null) { throw new TypeError(\"Super expression must either be null or a function, not \" + typeof superClass); } subClass.prototype = Object.create(superClass && superClass.prototype, { constructor: { value: subClass, enumerable: false, writable: true, configurable: true } }); if (superClass) Object.setPrototypeOf ? Object.setPrototypeOf(subClass, superClass) : subClass.__proto__ = superClass; }\n\nvar Page = function (_React$Component) {\n    _inherits(Page, _React$Component);\n\n    function Page(props) {\n        _classCallCheck(this, Page);\n\n        var _this = _possibleConstructorReturn(this, (Page.__proto__ || Object.getPrototypeOf(Page)).call(this, props));\n\n        _this.config = {\n            isContentVisible: true\n        };\n\n        _this.strings = {\n            headingGlobal: 'GitHub Static Site Template',\n            subheadingGlobal: 'A React-based template for GitHub Pages. Start editing away!'\n        };\n        return _this;\n    }\n\n    _createClass(Page, [{\n        key: 'render',\n        value: function render() {\n            return _react2.default.createElement(\n                'div',\n                { className: 'container container--global' },\n                _react2.default.createElement(\n                    'div',\n                    { className: 'overlay' },\n                    _react2.default.createElement(\n                        'header',\n                        { className: 'titles' },\n                        _react2.default.createElement(\n                            'h1',\n                            { className: 'heading heading--titles' },\n                            this.strings.headingGlobal\n                        ),\n                        _react2.default.createElement(\n                            'h3',\n                            { className: 'subheading subheading--titles' },\n                            this.strings.subheadingGlobal\n                        )\n                    )\n                ),\n                _react2.default.createElement(\n                    'div',\n                    { className: 'container container--contents' },\n                    this.config.isContentVisible ? _react2.default.createElement(\n                        'h1',\n                        null,\n                        'Hello ',\n                        this.strings.headingGlobal\n                    ) : null\n                ),\n                _react2.default.createElement(_Footer2.default, null)\n            );\n        }\n    }]);\n\n    return Page;\n}(_react2.default.Component);\n\nexports.default = Page;\n\n//# sourceURL=webpack:///./src/components/Page/Page.js?");
 
 /***/ }),
 
@@ -273,17 +306,6 @@ eval("\n\nObject.defineProperty(exports, \"__esModule\", {\n    value: true\n});
 /***/ (function(module, exports, __webpack_require__) {
 
 eval("// extracted by mini-css-extract-plugin\n\n//# sourceURL=webpack:///./src/styles/app.css?");
-
-/***/ }),
-
-/***/ "./src/styles/normalize.css":
-/*!**********************************!*\
-  !*** ./src/styles/normalize.css ***!
-  \**********************************/
-/*! no static exports found */
-/***/ (function(module, exports, __webpack_require__) {
-
-eval("// extracted by mini-css-extract-plugin\n\n//# sourceURL=webpack:///./src/styles/normalize.css?");
 
 /***/ })
 
