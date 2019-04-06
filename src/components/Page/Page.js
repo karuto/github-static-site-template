@@ -1,6 +1,6 @@
 import React from 'react';
 import Footer from '../Footer/Footer';
-import './Page.css';
+import styles from './Page.css';
 
 class Page extends React.Component {
     constructor(props) {
@@ -18,14 +18,14 @@ class Page extends React.Component {
 
     render() {
         return (
-            <div className='container container--global'>
-                <div className='overlay'>
-                    <header className='titles'>
-                        <h1 className='heading heading--titles'>{this.strings.headingGlobal}</h1>
-                        <h3 className='subheading subheading--titles'>{this.strings.subheadingGlobal}</h3>
+            <div className={styles.container}>
+                <div className={styles.overlay}>
+                    <header className={styles.titles}>
+                        <h1 className={styles['heading--titles']}>{this.strings.headingGlobal}</h1>
+                        <h3 className={styles['subheading--titles']}>{this.strings.subheadingGlobal}</h3>
                     </header>
                 </div>
-                <div className='container container--contents'>
+                <div className={styles['container--contents']}>
                     {this.config.isContentVisible ? <h1>Hello {this.strings.headingGlobal}</h1> : null}
                 </div>
                 <Footer />

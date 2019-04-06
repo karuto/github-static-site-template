@@ -1,31 +1,30 @@
 /* ==========================================================================
   Footer
   ========================================================================== */
-  footer {
-    color: #666;
-    font-family: Roboto,"Hiragino Sans GB","冬青黑","Microsoft YaHei","微软雅黑",SimSun,"宋体",sans-serif;
-    max-width: 960px;
-    margin: 4rem auto;
-    text-align: center;
+._1lrrJ845beebUR7HRSYHM5 {
+  color: #666;
+  font-family: Roboto,"Hiragino Sans GB","冬青黑","Microsoft YaHei","微软雅黑",SimSun,"宋体",sans-serif;
+  max-width: 960px;
+  margin: 4rem auto;
+  text-align: center;
+  box-sizing: border-box;
 }
 
 
 /* ==========================================================================
   High level containers
   ========================================================================== */
-  .container {
-    box-sizing: border-box;
+.QOUG7Tr8xk-at1d2Xpel1 {
+  box-sizing: border-box;
 }
-.container--global {
-}
-.container--contents {
-    max-width: 960px;
-    margin: 2rem auto;
-    background: #fff;
-    display: flex;
-    border-radius: 4px;
-    box-shadow: 0 5px 20px -5px rgba(50,50,93,.12), 0 3px 4px -2px rgba(0,0,0,.08);
-    transition-duration: .5s;
+._1j_Nj4aVJ0ynb_nWj_tmiE {
+  max-width: 960px;
+  margin: 2rem auto;
+  background: #fff;
+  display: flex;
+  border-radius: 4px;
+  box-shadow: 0 5px 20px -5px rgba(50,50,93,.12), 0 3px 4px -2px rgba(0,0,0,.08);
+  transition-duration: .5s;
 }
 
 
@@ -33,16 +32,16 @@
 /* ==========================================================================
   Title area
   ========================================================================== */
-.overlay {
-    background: rebeccapurple;
-    margin: 0 auto -8rem;
-    height: 16rem; /* actual height: 8rem */
+._3js0UQ2e2ro-ToKyL4Ahld {
+  background: rebeccapurple;
+  margin: 0 auto -8rem;
+  height: 16rem; /* actual height: 8rem */
 }
-.titles {
-    max-width: 960px;
-    margin: 0 auto;
-    padding: 4rem;
-    color: #fff;
+._3gpezIOBAEA1PeL1cv7uAS {
+  max-width: 960px;
+  margin: 0 auto;
+  padding: 4rem;
+  color: #fff;
 }
 
 
@@ -50,28 +49,19 @@
 /* ==========================================================================
   Headings
   ========================================================================== */
-.heading {
-    margin: 0 0 1rem;
-    padding: 0;
-}
-.heading--titles {
+._3AMzjwLS9DRrM0msjUL8e0 {
     margin: 0 0 1rem;
 }
-.subheading {
-    margin: 0;
-    padding: 0;
-    font-weight: normal;
+.QYiBULH2XUAt3ceZFXfxu {
+  padding: 0;
 }
-.subheading--titles {
-    font-size: 16px;
+._252zZOf_mjiO6cACqVxygs {
+  margin: 0;
+  padding: 0;
+  font-weight: normal;
 }
-
-
-
-/* ==========================================================================
-  Contents
-  ========================================================================== */
-.container--contents {
+._32eSIUxFfksygWtvAPbfge {
+  font-size: 16px;
 }
 /*! normalize.css v8.0.0 | MIT License | github.com/necolas/normalize.css */
 
@@ -503,7 +493,7 @@ textarea {
    Browser Upgrade Prompt
    ========================================================================== */
 
-.browserupgrade {
+._2E0DMK8cobiO2ZJDzE76Ff {
     margin: 0.2em 0;
     background: #ccc;
     color: #000;
@@ -538,7 +528,7 @@ textarea {
  * Hide visually and from screen readers
  */
 
-.hidden {
+._3JFDxkqrHAq8saMyguLwyq {
     display: none !important;
 }
 
@@ -551,7 +541,7 @@ textarea {
  *    https://medium.com/@jessebeach/beware-smushed-off-screen-accessible-text-5952a4c2cbfe
  */
 
-.visuallyhidden {
+._2CSI2LlQmUWZGUiRagYkyF {
     border: 0;
     clip: rect(0 0 0 0);
     height: 1px;
@@ -569,8 +559,8 @@ textarea {
  * https://www.drupal.org/node/897638
  */
 
-.visuallyhidden.focusable:active,
-.visuallyhidden.focusable:focus {
+._2CSI2LlQmUWZGUiRagYkyF._2T4fENhmNO1WA_wnLxUieY:active,
+._2CSI2LlQmUWZGUiRagYkyF._2T4fENhmNO1WA_wnLxUieY:focus {
     clip: auto;
     height: auto;
     margin: 0;
@@ -584,7 +574,7 @@ textarea {
  * Hide visually and from screen readers, but maintain layout
  */
 
-.invisible {
+._3TyDOYnIjkjEImXao3Vi1K {
     visibility: hidden;
 }
 
@@ -600,13 +590,13 @@ textarea {
  *    `:before` to contain the top-margins of child elements.
  */
 
-.clearfix:before,
-.clearfix:after {
+.KGYZJwwc6WT5wrWIO9p3T:before,
+.KGYZJwwc6WT5wrWIO9p3T:after {
     content: " "; /* 1 */
     display: table; /* 2 */
 }
 
-.clearfix:after {
+.KGYZJwwc6WT5wrWIO9p3T:after {
     clear: both;
 }
 
