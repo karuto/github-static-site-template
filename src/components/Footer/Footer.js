@@ -17,8 +17,7 @@ export default function Footer() {
     );
 
     return (
-        // <footer className='container foo'>
-        <footer className={styles.foo}>
+        <footer className={styles.footer}>
             {content}
         </footer>
     );
