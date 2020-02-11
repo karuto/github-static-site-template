@@ -8,17 +8,11 @@ function Footer() {
       email: 'mailto:hi@vincentzh.com'
     };
 
-    const content = (
-        <div>
+    return (
+        <footer className={styles.footer}>
             Made by <a href={links.homepage}>Vincent Zhang.</a>
             &nbsp;Find this project on <a href={links.github}>GitHub</a>
             &nbsp;or write me an <a href={links.email}>email.</a>
-        </div>
-    );
-
-    return (
-        <footer className={styles.footer}>
-            {content}
         </footer>
     );
 };
