@@ -226,7 +226,18 @@ eval("\n\nif (false) {} else {\n  module.exports = __webpack_require__(/*! ./cjs
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
-eval("\n\nvar _react = __webpack_require__(/*! react */ \"./node_modules/react/index.js\");\n\nvar _react2 = _interopRequireDefault(_react);\n\nvar _reactDom = __webpack_require__(/*! react-dom */ \"./node_modules/react-dom/index.js\");\n\nvar _reactDom2 = _interopRequireDefault(_reactDom);\n\nvar _Page = __webpack_require__(/*! ./components/Page/Page */ \"./src/components/Page/Page.js\");\n\nvar _Page2 = _interopRequireDefault(_Page);\n\n__webpack_require__(!(function webpackMissingModule() { var e = new Error(\"Cannot find module './Root.css'\"); e.code = 'MODULE_NOT_FOUND'; throw e; }()));\n\n__webpack_require__(/*! ./styles/app.css */ \"./src/styles/app.css\");\n\nfunction _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }\n\n_reactDom2.default.render(_react2.default.createElement(_Page2.default, null), document.getElementById('root')); // global normalize\n\n//# sourceURL=webpack:///./src/Root.js?");
+eval("\n\nvar _react = __webpack_require__(/*! react */ \"./node_modules/react/index.js\");\n\nvar _react2 = _interopRequireDefault(_react);\n\nvar _reactDom = __webpack_require__(/*! react-dom */ \"./node_modules/react-dom/index.js\");\n\nvar _reactDom2 = _interopRequireDefault(_reactDom);\n\nvar _Page = __webpack_require__(/*! ./components/Page/Page */ \"./src/components/Page/Page.js\");\n\nvar _Page2 = _interopRequireDefault(_Page);\n\n__webpack_require__(/*! ./normalize.css */ \"./src/normalize.css\");\n\n__webpack_require__(/*! ./app.css */ \"./src/app.css\");\n\nfunction _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }\n\n_reactDom2.default.render(_react2.default.createElement(_Page2.default, null), document.getElementById('root'));\n\n//# sourceURL=webpack:///./src/Root.js?");
+
+/***/ }),
+
+/***/ "./src/app.css":
+/*!*********************!*\
+  !*** ./src/app.css ***!
+  \*********************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+eval("// extracted by mini-css-extract-plugin\nmodule.exports = {\"browserupgrade\":\"src-app__browserupgrade--9VvVI\",\"hidden\":\"src-app__hidden--1uRp_\",\"visuallyhidden\":\"src-app__visuallyhidden--WVFIV\",\"focusable\":\"src-app__focusable--3692K\",\"invisible\":\"src-app__invisible--Qm8P8\",\"clearfix\":\"src-app__clearfix--_V64a\"};\n\n//# sourceURL=webpack:///./src/app.css?");
 
 /***/ }),
 
@@ -276,14 +287,14 @@ eval("\n\nObject.defineProperty(exports, \"__esModule\", {\n    value: true\n});
 
 /***/ }),
 
-/***/ "./src/styles/app.css":
-/*!****************************!*\
-  !*** ./src/styles/app.css ***!
-  \****************************/
+/***/ "./src/normalize.css":
+/*!***************************!*\
+  !*** ./src/normalize.css ***!
+  \***************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-eval("// extracted by mini-css-extract-plugin\nmodule.exports = {\"browserupgrade\":\"src-styles-app__browserupgrade--2E0DM\",\"hidden\":\"src-styles-app__hidden--3JFDx\",\"visuallyhidden\":\"src-styles-app__visuallyhidden--2CSI2\",\"focusable\":\"src-styles-app__focusable--2T4fE\",\"invisible\":\"src-styles-app__invisible--3TyDO\",\"clearfix\":\"src-styles-app__clearfix--KGYZJ\"};\n\n//# sourceURL=webpack:///./src/styles/app.css?");
+eval("// extracted by mini-css-extract-plugin\n\n//# sourceURL=webpack:///./src/normalize.css?");
 
 /***/ })
 
