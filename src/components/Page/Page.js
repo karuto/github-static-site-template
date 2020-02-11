@@ -8,6 +8,8 @@ function Page() {
         subheadingGlobal: 'A React-based template for GitHub Pages. Start editing away!'
     };
 
+    const [count, setCount] = useState(0);
+
     return (
         <div className={styles.container}>
             <div className={styles.overlay}>
@@ -17,7 +19,10 @@ function Page() {
                 </header>
             </div>
             <div className={styles['container--contents']}>
-                <h1>Hello world!</h1>
+                <h1>Hello world! Count: {count}</h1>
+                <button onClick={() => setCount(count + 1)}>
+                    Click me
+                </button>
             </div>
             <Footer />
         </div>
