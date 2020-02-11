@@ -1,7 +1,7 @@
 import React from 'react';
 import styles from './Footer.css'
 
-export default function Footer() {
+function Footer() {
     const links = {
       homepage: 'https://github.com/karuto',
       github: 'https://github.com/karuto/github-static-site-template',
@@ -22,3 +22,5 @@ export default function Footer() {
         </footer>
     );
 };
+
+export default Footer;
